@@ -76,6 +76,7 @@ span {
 
 .theme {
   background-image: url("../img/bg.png");
+  background-repeat: no-repeat;
   position: absolute;
   height: 100vh;
   width: 100vw;
@@ -137,7 +138,7 @@ span {
   color: var(--primary-color) !important;
 }
 
-#img_footer {
+.img_footer {
   position: absolute;
   left: 95%;
   top: 80%;
@@ -145,6 +146,42 @@ span {
   margin-top: -180px;
   max-width: 50vh;
   max-height: 40vh;
+}
+
+@media (max-width: 425px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  form {
+    max-width: 220px;
+    max-height: 200px;
+  }
+  section {
+    width: 80vw;
+  }
+  h1 {
+    margin: 0 0 0.5rem;
+    text-align: center;
+    font-size: 22px;
+  }
+  .theme {
+    background-image: url("../img/bg-cell.png");
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+  }
+  label {
+    margin-top: 10px;
+  }
+  .img_footer {
+    left: 120%;
+    top: 108%;
+    max-width: 30vh;
+    max-height: 30vh;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
