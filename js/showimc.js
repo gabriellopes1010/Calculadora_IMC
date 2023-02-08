@@ -12,7 +12,7 @@ export default function showImc() {
   resultInput.value = resultimc.toFixed(2);
   if (resultimc < 18.5) {
     menssageText.textContent=(`O paciente foi considerado em situação MAGREZA`)}
-  else if (resultimc < 25) menssageText.textContent=(`O paciente foi considerado em situação considerado NORMAL`);
+  else if (resultimc < 25) menssageText.textContent=(`O paciente foi considerado em situação NORMAL`);
   else if (resultimc < 30) menssageText.textContent=(`O paciente foi considerado em situação SOBREPESO`);
   else if (resultimc < 40)  menssageText.textContent=(`O IMC foi considerado OBESIDADE`);
   else if (resultimc >= 40)

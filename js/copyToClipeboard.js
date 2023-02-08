@@ -4,7 +4,7 @@ export default function (ev) {
   if (button.innerText === 'Copy') {
     button.innerText = 'Copied!';
     button.classList.add('success');
-    navigator.clipboard.writeText(resultInput.value);
+    navigator.clipboard.writeText(`Meu IMC é: ${resultInput.value}`);
   } else {
     button.innerText = 'Copy';
     button.classList.remove('success');
