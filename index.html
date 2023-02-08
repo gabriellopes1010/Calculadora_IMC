@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet" />
+  <title>Calcular IMC</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/index.js" type="module" defer></script>
+</head>
+
+<body class="theme">
+  <section>
+
+    <main data-theme="dark">
+      <header class="flex align-center justify-between">
+        <h1>Calculadora IMC</h1>
+        <button id="themeSwitcher">Switch Theme Dark/Light</button>
+      </header>
+      <form>
+
+        <label for="weight">Seu peso (em kg):</label>
+        <input type="text" name="weight" id="weight">
+        <label for="height">Sua altura (em cm):</label>
+        <input type="text" name="height" id="height">
+        <button id="calculate">Calcular!</button>
+        <div class="buttonCopy">
+          <button id="copyToClipboard">Copy</button>
+          <input type="text" id="result" disabled />
+        </div>
+        <span id="menssage"></span>
+      </form>
+    </main>
+  </section>
+  <footer>
+    <img id="img_footer" src="../calculadora_imc/img/bonecos.png" alt="" srcset="">
+
+
+</body>
+
+</html>
