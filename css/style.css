@@ -177,10 +177,10 @@ span {
     margin-top: 10px;
   }
   .img_footer {
-    left: 120%;
-    top: 108%;
-    max-width: 30vh;
-    max-height: 30vh;
+    left: 108%;
+    top: 95%;
+    max-width: 40vh;
+    max-height: 40vh;
   }
 }
 
